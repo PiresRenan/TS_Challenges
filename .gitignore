@@ -1,29 +1,43 @@
-# Arquivos de compilação TypeScript
+
 /dist
 
-# Arquivos gerados pelo editor
+
 .vscode
 .idea
 *.iml
+*.log
 
-# Dependências Node.js
-/node_modules
-
-# Arquivos de configuração locais
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Arquivos de logs
-logs
-
-# Arquivos de build específicos do Next.js
 /.next
 /out
 
-# Arquivos de build específicos do Nest.js
 /dist
 
-# Arquivos de cache
 .cache
+
+node_modules/
+npm-debug.log
+yarn-error.log
+
+/.idea
+/.vscode
+.DS_Store
+/build
+/dist
+
+
+/dist/
+/e2e/
+
+/dist/
+/node_modules/
+/npm-debug.log
+
+/data/
+/db.log
+/mongod.lock
+
+/dist/
+/node_modules/
+.env
+.env.*
+*.env
