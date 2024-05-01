@@ -1,0 +1,11 @@
+<div class="input-container">
+    <input type="text" [(ngModel)]="novoItem" placeholder="Novo item">
+    <button (click)="adicionarItem()">Adicionar</button>
+  </div>
+  
+  <ul>
+    <li *ngFor="let item of itens; index as i">
+      {{ item }}
+      <button (click)="removerItem(i)">Remover</button>
+    </li>
+  </ul>
